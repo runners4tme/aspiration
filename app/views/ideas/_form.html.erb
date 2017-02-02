@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="large-centered large-8 columns">
+  <%= form_for @idea, remote: true do |f| %>
+      <%= f.text_field :author, placeholder: "Your name goes here" %>
+      <%= f.text_field :title, placeholder: "The title of your idea goes here" %>
+      <%= f.text_area :content, placeholder: "Your content of your idea goes here", rows: 6 %>
+      <p class="text-center"><%= f.submit "create", class: "button" %></p>
+  <% end %>
+  </div>
+  </div>
