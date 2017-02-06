@@ -1,4 +1,4 @@
 README
 ==
 
-A simple app for sharing ideas
+A simple app for sharing ideas!

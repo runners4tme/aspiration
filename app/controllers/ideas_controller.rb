@@ -17,15 +17,6 @@ before_action :idea, only: [ :edit, :update, :destroy]
    end
   end
 
-def edit
-   respond_to :js
-end
-
-def update
-  @idea.update(idea_params)
-  respond_to :js
-end
-
 def destroy
   respond_to do |format|
   if @idea.destroy

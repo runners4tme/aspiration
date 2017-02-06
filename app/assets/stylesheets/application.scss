@@ -22,11 +22,12 @@
 /*global*/
 
 $seashell: #FFF5EE;
-$grey: #808080;
+$black: #000000;
 $light-slate: #CCFFFF;
 $alice-blue: #F0F8FF;
 $light-blue: #00ECB9;
 $dark-blue: #00816A;
+$chilli-paper:#C11B17;
 $pretty-blue: #00BF96;
 $padding-top: 10px;
 $dark-shadow: 3px 3px 1px $dark-blue;
@@ -74,7 +75,7 @@ body {
 }
 
 .fa-trash {
-  color: #F70D1A;
+  color: $chilli-paper;
 }
 
 .idea {
@@ -86,7 +87,7 @@ body {
 }
 
 .idea:hover {
-  color: $grey;
+  color: $black;
   text-decoration: none;
   transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
